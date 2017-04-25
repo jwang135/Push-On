@@ -14,6 +14,13 @@
 		B7DABA041EA149DF00530619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7DABA021EA149DF00530619 /* LaunchScreen.storyboard */; };
 		B7DABA0F1EA149DF00530619 /* PushOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA0E1EA149DF00530619 /* PushOnTests.swift */; };
 		B7DABA1A1EA149DF00530619 /* PushOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA191EA149DF00530619 /* PushOnUITests.swift */; };
+		B7DABA281EA14F9C00530619 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA271EA14F9C00530619 /* SwiftyJSON.swift */; };
+		B7DABA2A1EA14FD600530619 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA291EA14FD600530619 /* Extensions.swift */; };
+		B7DABA2C1EA1536B00530619 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA2B1EA1536B00530619 /* UIImage+Gif.swift */; };
+		B7DABA2E1EA1614F00530619 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA2D1EA1614F00530619 /* Preferences.swift */; };
+		B7DABA321EA7CCC200530619 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA311EA7CCC200530619 /* SurveyViewController.swift */; };
+		B7DABA341EA7CDD200530619 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DABA331EA7CDD200530619 /* SurveyCollectionViewCell.swift */; };
+		B7EDFA3D1EAA989A00F1AF44 /* SectionHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDFA3C1EAA989A00F1AF44 /* SectionHeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		B7DABA151EA149DF00530619 /* PushOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DABA191EA149DF00530619 /* PushOnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushOnUITests.swift; sourceTree = "<group>"; };
 		B7DABA1B1EA149DF00530619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DABA271EA14F9C00530619 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B7DABA291EA14FD600530619 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B7DABA2B1EA1536B00530619 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		B7DABA2D1EA1614F00530619 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		B7DABA311EA7CCC200530619 /* SurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		B7DABA331EA7CDD200530619 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7EDFA3C1EAA989A00F1AF44 /* SectionHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,17 @@
 			children = (
 				B7DAB9F91EA149DF00530619 /* AppDelegate.swift */,
 				B7DAB9FB1EA149DF00530619 /* ViewController.swift */,
+				B7DABA2B1EA1536B00530619 /* UIImage+Gif.swift */,
 				B7DAB9FD1EA149DF00530619 /* Main.storyboard */,
+				B7DABA331EA7CDD200530619 /* SurveyCollectionViewCell.swift */,
+				B7DABA311EA7CCC200530619 /* SurveyViewController.swift */,
+				B7EDFA3C1EAA989A00F1AF44 /* SectionHeaderCollectionReusableView.swift */,
+				B7DABA2D1EA1614F00530619 /* Preferences.swift */,
+				B7DABA291EA14FD600530619 /* Extensions.swift */,
 				B7DABA001EA149DF00530619 /* Assets.xcassets */,
 				B7DABA021EA149DF00530619 /* LaunchScreen.storyboard */,
 				B7DABA051EA149DF00530619 /* Info.plist */,
+				B7DABA271EA14F9C00530619 /* SwiftyJSON.swift */,
 			);
 			path = PushOn;
 			sourceTree = "<group>";
@@ -193,7 +214,7 @@
 				TargetAttributes = {
 					B7DAB9F51EA149DF00530619 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = TH45C9DKSR;
+						DevelopmentTeam = 57VK9GJMZK;
 						ProvisioningStyle = Automatic;
 					};
 					B7DABA091EA149DF00530619 = {
@@ -262,8 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DABA281EA14F9C00530619 /* SwiftyJSON.swift in Sources */,
+				B7DABA321EA7CCC200530619 /* SurveyViewController.swift in Sources */,
 				B7DAB9FC1EA149DF00530619 /* ViewController.swift in Sources */,
+				B7EDFA3D1EAA989A00F1AF44 /* SectionHeaderCollectionReusableView.swift in Sources */,
+				B7DABA2E1EA1614F00530619 /* Preferences.swift in Sources */,
 				B7DAB9FA1EA149DF00530619 /* AppDelegate.swift in Sources */,
+				B7DABA2C1EA1536B00530619 /* UIImage+Gif.swift in Sources */,
+				B7DABA341EA7CDD200530619 /* SurveyCollectionViewCell.swift in Sources */,
+				B7DABA2A1EA14FD600530619 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TH45C9DKSR;
+				DEVELOPMENT_TEAM = 57VK9GJMZK;
 				INFOPLIST_FILE = PushOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MehtaKnight.PushOn;
@@ -428,7 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = TH45C9DKSR;
+				DEVELOPMENT_TEAM = 57VK9GJMZK;
 				INFOPLIST_FILE = PushOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MehtaKnight.PushOn;
@@ -514,6 +542,7 @@
 				B7DABA201EA149DF00530619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7DABA211EA149DF00530619 /* Build configuration list for PBXNativeTarget "PushOnTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +551,7 @@
 				B7DABA231EA149DF00530619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7DABA241EA149DF00530619 /* Build configuration list for PBXNativeTarget "PushOnUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +560,7 @@
 				B7DABA261EA149DF00530619 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
